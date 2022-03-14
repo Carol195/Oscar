@@ -14,7 +14,10 @@ public class Aplicacao {
         atores = new LeituraArquivo("oscar_age_male.csv");
         atrizes = new LeituraArquivo("oscar_age_female.csv");
 
-
+        atorMaisJovem();
+        atrizMaisPremiada();
+        atrizAge20a30();
+        atrizAtoresMaisDeUmaPremiacao();
         resumoAtoresAtrizes( "Daniel Day-Lewis");
 
     }
